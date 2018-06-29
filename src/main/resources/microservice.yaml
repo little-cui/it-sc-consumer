@@ -1,0 +1,12 @@
+APPLICATION_ID: springmvc
+service_description:
+  name: consumer
+  version: 0.0.1
+  properties:
+    allowCrossApp: false
+cse:
+  service:
+    registry:
+      address: http://127.0.0.1:30100
+      instance:
+        watch: true
